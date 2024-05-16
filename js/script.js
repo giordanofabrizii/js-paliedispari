@@ -1,12 +1,16 @@
 // > PALINDROMA
-let stringa = prompt("scrivi una parola")// inizializzo una variabile con prompt
+let stringa = prompt("scrivi una parola").toLowerCase()// inizializzo una variabile con prompt
 
 function palindroma(str) {
     let reverted = "";
     for (let i = stringa.length - 1; i >= 0; i--){
         reverted += stringa[i];
     }
-    console.log(reverted)
+    if (stringa === reverted) {
+        console.log("la parola e' palindroma")
+    } else {
+        console.log("la parola non e' palindroma")
+    }
 }
 
 palindroma(stringa);
