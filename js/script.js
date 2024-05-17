@@ -1,5 +1,5 @@
 // > PALINDROMA
-// let stringa = prompt("scrivi una parola").toLowerCase()
+let stringa = prompt("scrivi una parola").toLowerCase()
 
 function palindroma(str) {
     let reverted = "";
@@ -13,7 +13,7 @@ function palindroma(str) {
     }
 }
 
-// palindroma(stringa);
+palindroma(stringa);
 
 
 // > PARI E DISPARI
